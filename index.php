@@ -10,7 +10,7 @@
 <body>
     <form action="post.php" method="post" enctype="multipart/form-data">
         <label for="file">Image</label>
-        <input  type="file" name="files" id="file">
+        <input  type="file" name="files[]" id="file" multiple>
         <button type="submit">submit</button>
     </form>
 </body>
